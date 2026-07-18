@@ -62,6 +62,6 @@ body{
     color:white;
 }
 
-</style>
-
-</head>
+.social-link {
+    text-decoration: none;
+}
