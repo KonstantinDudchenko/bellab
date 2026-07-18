@@ -1,0 +1,22 @@
+
+.hero{
+    position: relative;
+    display: inline-block; /* контейнер имеет размеры картинки */
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.telegram-btn{
+    position: absolute;
+
+    top: 55%;
+    left: 17%;
+
+    font-size: 50px;
+
+    transform: translate(-50%, -50%);
+}

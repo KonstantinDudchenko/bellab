@@ -1,0 +1,96 @@
+.hero{
+    margin-top: 20vh;
+}
+
+.logo-img {
+    width: 300px;
+    height: auto; /* сохраняет пропорции */
+}
+
+
+
+.logo,
+.logo2 {
+
+    font-family:"Exo 2", sans-serif;
+    font-weight:700;
+
+    background:
+    linear-gradient(
+        120deg,
+        #00152b,
+        #008cff,
+        #00ffff,
+        #00152b
+    );
+
+
+    background-size:250% 250%;
+
+
+    color:transparent;
+
+    -webkit-background-clip:text;
+    background-clip:text;
+
+
+    animation:
+    laser 20s infinite linear,
+    power 10s infinite alternate;
+
+}
+
+
+
+@keyframes laser {
+
+    0%{
+        background-position:0% 50%;
+    }
+
+
+    100%{
+        background-position:250% 50%;
+    }
+
+}
+
+
+
+@keyframes power {
+
+    from{
+
+        filter:
+        drop-shadow(0 0 3px #00d9ff);
+
+    }
+
+
+    to{
+
+        filter:
+        drop-shadow(0 0 25px #00d9ff)
+        drop-shadow(0 0 50px #0055ff);
+
+    }
+
+}
+
+
+.logo{
+
+font-size:45px;
+line-height:1;
+letter-spacing:3px;
+
+}
+
+
+.logo2{
+
+font-size:25px;
+line-height:0.8;
+letter-spacing:10px;
+
+}

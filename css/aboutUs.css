@@ -1,0 +1,17 @@
+.about-text{
+    text-align: justify;
+}
+
+.about-section {
+    background: #f5eee6; /* общий фон блока */
+    border-radius: 20px;
+}
+
+.about-text {
+    background: white;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    line-height: 1.6;
+}

@@ -1,0 +1,67 @@
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background:#f8f8f5;
+    color:#333;
+}
+
+.section-title{
+    font-size:42px;
+    font-weight:700;
+}
+
+.service-card{
+    background:white;
+    border:none;
+    border-radius:20px;
+    padding:30px;
+    height:100%;
+    transition:.3s;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+}
+
+.icon-box{
+    width:70px;
+    height:70px;
+    border-radius:20px;
+    background:#2DD4BF;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.price-card{
+    border-radius:25px;
+    padding:35px;
+    background:white;
+    height:100%;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.price-card:hover{
+    border:2px solid #6d6d36;
+}
+
+.btn-main{
+    background:#6d6d36;
+    color:white;
+    border-radius:30px;
+    padding:12px 30px;
+}
+
+.btn-main:hover{
+    background:#56562b;
+    color:white;
+}
+
+</style>
+
+</head>
