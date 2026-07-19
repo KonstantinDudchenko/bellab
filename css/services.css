@@ -51,14 +51,14 @@ body{
 }
 
 .btn-main{
-    background:#6d6d36;
+    background:#FDBA9B;
     color:white;
     border-radius:30px;
     padding:12px 30px;
 }
 
 .btn-main:hover{
-    background:#56562b;
+    background:#F3D1D8;
     color:white;
 }
 
