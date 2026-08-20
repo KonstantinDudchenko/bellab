@@ -1,0 +1,936 @@
+
+/* ========================================
+   AUTOMATION SECTION
+======================================== */
+
+.automation-section {
+    position: relative;
+    overflow: hidden;
+
+    padding: 110px 0 100px;
+
+    background: #eaf8f7;
+}
+
+
+/* ========================================
+   HEADER
+======================================== */
+
+.automation-header {
+    max-width: 800px;
+
+    margin: 0 auto 65px;
+
+    text-align: center;
+}
+
+.automation-label {
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+
+    color: #159a98;
+}
+
+.automation-title {
+    margin-bottom: 24px;
+
+    font-size: clamp(2.8rem, 5vw, 4.8rem);
+    font-weight: 600;
+    line-height: 0.96;
+    letter-spacing: -0.05em;
+
+    color: #073d3d;
+}
+
+.automation-title span {
+    display: block;
+
+    color: #21aead;
+}
+
+.automation-intro {
+    max-width: 650px;
+
+    margin: 0 auto;
+
+    font-size: 1.05rem;
+    line-height: 1.7;
+
+    color: #537777;
+}
+
+
+/* ========================================
+   LAPTOP
+======================================== */
+
+.laptop {
+    position: relative;
+
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+.laptop-screen {
+    position: relative;
+    overflow: hidden;
+
+    padding: 10px;
+
+    border-radius: 18px 18px 8px 8px;
+
+    background: #123c3d;
+
+    box-shadow:
+        0 40px 80px rgba(8, 76, 76, 0.20),
+        0 15px 30px rgba(8, 76, 76, 0.12);
+}
+
+
+.laptop-viewport {
+    position: relative;
+
+    height: 650px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    scroll-behavior: smooth;
+
+    /* Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: #159a98 transparent;
+}
+
+
+/* Chrome / Edge / Safari */
+
+.laptop-viewport::-webkit-scrollbar {
+    width: 6px;
+}
+
+.laptop-viewport::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.laptop-viewport::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+
+    background: #159a98;
+}
+
+.laptop-viewport::-webkit-scrollbar-thumb:hover {
+    background: #087c7a;
+}
+
+.clinic-site {
+    width: 100%;
+
+    background: #ffffff;
+
+}
+
+
+
+/* ========================================
+   CLINIC WEBSITE
+======================================== */
+
+.clinic-site {
+    overflow: hidden;
+
+    border-radius: 10px;
+
+    background: #ffffff;
+}
+
+
+/* ========================================
+   NAVBAR
+======================================== */
+
+.clinic-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-height: 72px;
+
+    padding: 0 50px;
+
+    border-bottom: 1px solid #e4eeee;
+
+    background: #ffffff;
+}
+
+.clinic-logo {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.clinic-logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 10px;
+
+    background: #159a98;
+
+    font-size: 1rem;
+
+    color: #ffffff;
+}
+
+.clinic-logo strong {
+    display: block;
+
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+
+    color: #073d3d;
+}
+
+.clinic-logo span {
+    display: block;
+
+    font-size: 0.55rem;
+    letter-spacing: 0.15em;
+
+    color: #71a2a1;
+}
+
+.clinic-nav {
+    display: flex;
+
+    gap: 30px;
+}
+
+.clinic-nav a {
+    font-size: 0.72rem;
+
+    text-decoration: none;
+
+    color: #608080;
+}
+
+.clinic-nav-button {
+    padding: 11px 20px;
+
+    border: 0;
+    border-radius: 8px;
+
+    background: #073d3d;
+
+    font-size: 0.7rem;
+    font-weight: 600;
+
+    color: #ffffff;
+}
+
+
+/* ========================================
+   HERO
+======================================== */
+
+.clinic-hero {
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns: 1fr 0.9fr;
+
+    min-height: 430px;
+
+    padding: 70px 75px;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            115deg,
+            #effafa 0%,
+            #d9f4f2 55%,
+            #bcebe8 100%
+        );
+}
+
+.clinic-hero-content {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.clinic-overline {
+    margin-bottom: 18px;
+
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.17em;
+
+    color: #159a98;
+}
+
+.clinic-hero h1 {
+    margin-bottom: 20px;
+
+    font-size: clamp(3rem, 5vw, 5rem);
+    font-weight: 600;
+    line-height: 0.9;
+    letter-spacing: -0.06em;
+
+    color: #073d3d;
+}
+
+.clinic-hero h1 span {
+    color: #159a98;
+}
+
+.clinic-hero p {
+    max-width: 430px;
+
+    margin-bottom: 28px;
+
+    font-size: 0.9rem;
+    line-height: 1.65;
+
+    color: #527777;
+}
+
+.clinic-actions {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.clinic-primary-button {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 14px 22px;
+
+    border: 0;
+    border-radius: 9px;
+
+    background: #159a98;
+
+    font-size: 0.7rem;
+    font-weight: 600;
+
+    color: #ffffff;
+
+    box-shadow: 0 10px 25px rgba(21, 154, 152, 0.25);
+}
+
+.clinic-online {
+    display: flex;
+    align-items: center;
+
+    gap: 7px;
+
+    font-size: 0.65rem;
+
+    color: #527777;
+}
+
+.clinic-online span {
+    width: 7px;
+    height: 7px;
+
+    border-radius: 50%;
+
+    background: #35c48d;
+}
+
+
+/* ========================================
+   DOCTOR
+======================================== */
+
+.clinic-hero-visual {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-shape {
+    position: absolute;
+
+    width: 340px;
+    height: 340px;
+
+    border-radius: 50%;
+
+    background: #94d9d5;
+}
+
+.doctor-image {
+    position: relative;
+    z-index: 2;
+
+    width: 260px;
+    height: 330px;
+
+    overflow: hidden;
+
+    border-radius: 130px 130px 25px 25px;
+
+    background: #7fc7c4;
+
+    box-shadow: 0 25px 50px rgba(20, 95, 95, 0.18);
+}
+
+.doctor-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* ========================================
+   APPOINTMENT CARD
+======================================== */
+
+.appointment-card {
+    position: absolute;
+    z-index: 3;
+
+    right: 20px;
+    bottom: 20px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 220px;
+
+    padding: 14px;
+
+    border-radius: 12px;
+
+    background: #ffffff;
+
+    box-shadow: 0 15px 35px rgba(0, 80, 80, 0.15);
+}
+
+.appointment-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 9px;
+
+    background: #d9f4f2;
+
+    color: #159a98;
+}
+
+.appointment-card div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 3px;
+}
+
+.appointment-card strong {
+    font-size: 0.65rem;
+
+    color: #073d3d;
+}
+
+.appointment-card span {
+    font-size: 0.55rem;
+
+    color: #789595;
+}
+
+.appointment-card > i {
+    margin-left: auto;
+
+    color: #35c48d;
+}
+
+
+/* ========================================
+   SERVICES
+======================================== */
+
+.clinic-services {
+    padding: 70px 75px;
+
+    background: #ffffff;
+}
+
+.clinic-section-heading {
+    margin-bottom: 35px;
+}
+
+.clinic-section-heading span {
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+
+    color: #159a98;
+}
+
+.clinic-section-heading h2 {
+    margin-top: 8px;
+
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: -0.035em;
+
+    color: #073d3d;
+}
+
+.clinic-service-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+.clinic-service-card {
+    padding: 25px;
+
+    border: 1px solid #e2eeee;
+    border-radius: 14px;
+
+    background: #f8fcfc;
+
+    transition: 0.25s ease;
+}
+
+.clinic-service-card:hover {
+    transform: translateY(-4px);
+
+    border-color: #a7dedd;
+
+    box-shadow: 0 15px 35px rgba(10, 120, 120, 0.08);
+}
+
+.service-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+
+    margin-bottom: 22px;
+
+    border-radius: 11px;
+
+    background: #d9f4f2;
+
+    color: #159a98;
+}
+
+.clinic-service-card strong {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 0.82rem;
+
+    color: #073d3d;
+}
+
+.clinic-service-card p {
+    min-height: 45px;
+
+    margin-bottom: 20px;
+
+    font-size: 0.68rem;
+    line-height: 1.5;
+
+    color: #779292;
+}
+
+.clinic-service-card a {
+    font-size: 0.65rem;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    color: #159a98;
+}
+
+
+/* ========================================
+   ONLINE BOOKING
+======================================== */
+
+.online-booking {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+
+    padding: 60px 75px;
+
+    background:
+        linear-gradient(
+            120deg,
+            #073d3d,
+            #087c7a
+        );
+}
+
+.online-booking > div {
+    max-width: 620px;
+}
+
+.online-booking span {
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+
+    color: #75d5d0;
+}
+
+.online-booking h2 {
+    margin: 10px 0 12px;
+
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+
+    letter-spacing: -0.04em;
+
+    color: #ffffff;
+}
+
+.online-booking p {
+    margin: 0;
+
+    font-size: 0.72rem;
+    line-height: 1.5;
+
+    color: #a7dedd;
+}
+
+.online-booking button {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    flex-shrink: 0;
+
+    padding: 14px 22px;
+
+    border: 0;
+    border-radius: 9px;
+
+    background: #ffffff;
+
+    font-size: 0.68rem;
+    font-weight: 600;
+
+    color: #087c7a;
+}
+
+
+/* ========================================
+   FOOTER
+======================================== */
+
+.clinic-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 22px 45px;
+
+    background: #042f30;
+
+    font-size: 0.58rem;
+
+    color: #75a2a2;
+}
+
+.footer-logo .clinic-logo-icon {
+    background: #159a98;
+}
+
+
+/* ========================================
+   LAPTOP BASE
+======================================== */
+
+.laptop-base {
+    position: relative;
+
+    width: 110%;
+    height: 24px;
+
+    margin-left: -5%;
+
+    border-radius: 0 0 30px 30px;
+
+    background: linear-gradient(
+        to bottom,
+        #bfc7c5,
+        #9da7a5
+    );
+
+    box-shadow:
+        0 15px 25px rgba(0, 70, 70, 0.18);
+}
+
+.laptop-notch {
+    position: absolute;
+
+    top: 0;
+    left: 50%;
+
+    width: 150px;
+    height: 6px;
+
+    border-radius: 0 0 8px 8px;
+
+    background: #8d9896;
+
+    transform: translateX(-50%);
+}
+
+
+/* ========================================
+   AUTOMATION BENEFITS
+======================================== */
+
+.automation-benefits {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin-top: 45px;
+}
+
+.automation-benefits div {
+    display: flex;
+    align-items: center;
+
+    gap: 9px;
+
+    padding: 11px 17px;
+
+    border: 1px solid #cce9e7;
+    border-radius: 30px;
+
+    background: rgba(255, 255, 255, 0.65);
+
+    font-size: 0.72rem;
+
+    color: #527777;
+}
+
+.automation-benefits i {
+    color: #159a98;
+}
+
+
+/* ========================================
+   BOTTOM
+======================================== */
+
+.automation-bottom {
+    margin-top: 30px;
+
+    text-align: center;
+
+    font-size: 0.9rem;
+
+    color: #648080;
+}
+
+.automation-bottom i {
+    margin: 0 12px;
+
+    color: #159a98;
+}
+
+.automation-bottom strong {
+    color: #073d3d;
+}
+
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 991.98px) {
+
+    .automation-section {
+        padding: 80px 0;
+    }
+
+    .clinic-navbar {
+        padding: 0 25px;
+    }
+
+    .clinic-nav {
+        display: none;
+    }
+
+    .clinic-hero {
+        grid-template-columns: 1fr;
+
+        padding: 55px 45px;
+    }
+
+    .clinic-hero-visual {
+        margin-top: 45px;
+    }
+
+    .clinic-services {
+        padding: 55px 45px;
+    }
+
+    .clinic-service-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .online-booking {
+        padding: 50px 45px;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+
+    .automation-section {
+        padding: 60px 0;
+    }
+
+    .automation-title {
+        font-size: 2.7rem;
+    }
+
+    .automation-intro {
+        padding: 0 15px;
+
+        font-size: 0.95rem;
+    }
+
+    .laptop-screen {
+        padding: 5px;
+
+        border-radius: 10px;
+    }
+
+    .clinic-navbar {
+        min-height: 52px;
+
+        padding: 0 15px;
+    }
+
+    .clinic-nav-button {
+        display: none;
+    }
+
+    .clinic-hero {
+        padding: 40px 25px;
+    }
+
+    .clinic-hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .clinic-actions {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .clinic-hero-visual {
+        min-height: 340px;
+    }
+
+    .hero-shape {
+        width: 270px;
+        height: 270px;
+    }
+
+    .doctor-image {
+        width: 205px;
+        height: 275px;
+    }
+
+    .appointment-card {
+        right: 0;
+        bottom: 5px;
+
+        min-width: 190px;
+    }
+
+    .clinic-services {
+        padding: 45px 25px;
+    }
+
+    .online-booking {
+        align-items: flex-start;
+        flex-direction: column;
+
+        padding: 45px 25px;
+    }
+
+    .online-booking h2 {
+        font-size: 1.7rem;
+    }
+
+    .clinic-footer {
+        padding: 20px 25px;
+    }
+
+    .clinic-footer > span {
+        display: none;
+    }
+
+    .automation-benefits {
+        padding: 0 15px;
+    }
+
+    .laptop-base {
+        height: 13px;
+    }
+
+    .laptop-notch {
+        width: 80px;
+        height: 4px;
+    }
+}
